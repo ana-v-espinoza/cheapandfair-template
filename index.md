@@ -5,6 +5,10 @@ description: "Demo data repository"
 date_created: "2024-09-12"
 ---
 
+# About
+
+For more information about the project, checkout [About](./about.md)
+
 # Cheap&FAIR demo data portal
 
 The data hosting/transfer capability and permissions are provided by [Globus](https://globus.org), the Portal website is a discovery, navigation and documentation tool.
