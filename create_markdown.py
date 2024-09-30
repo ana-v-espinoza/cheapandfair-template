@@ -101,8 +101,8 @@ for dset in dsets:
         freq = get_fileinfo(file_name)
         flink = f"[`{file_name}`]({file_entry['url']})"
         # uncomment to enable visualization of images for the jpg files
-        # if flink.endswith(".jpg)") and dset in ["dust", "synch"]:
-        #    flink = "!" + flink
+        if flink.endswith(".jpg)") and dset in ["dust", "synch"]:
+           flink = "!" + flink
         dset_table_data.append([flink, freq, fsize])
     dset_size = sizeof_fmt(total_bytes)
     write_dataset(dset, n_files, dset_size, dset_table_data)
